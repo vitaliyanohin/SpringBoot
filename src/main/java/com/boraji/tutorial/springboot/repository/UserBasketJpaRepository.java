@@ -13,7 +13,7 @@ import java.util.Optional;
 @Repository
 public interface UserBasketJpaRepository extends CrudRepository<Basket, Long>, JpaRepository<Basket, Long> {
 
-  @Query("SELECT b FROM Basket b WHERE b.user = :id AND b.available= 'true'")
-  Optional<Basket> getBasket(@Param("id") User id);
+  @Query("SELECT b FROM Basket b WHERE b.user = :user AND b.available= 'true'")
+  Optional<Basket> getBasket(@Param("user") User user);
 
 }
