@@ -1,14 +1,10 @@
 package com.boraji.tutorial.springboot.service;
 
-
-
 import com.boraji.tutorial.springboot.model.User;
 import com.boraji.tutorial.springboot.repository.UserJpaRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.jws.soap.SOAPBinding;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 

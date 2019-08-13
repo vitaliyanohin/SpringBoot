@@ -1,6 +1,5 @@
 package com.boraji.tutorial.springboot.repository;
 
-
 import com.boraji.tutorial.springboot.model.Product;
 import com.boraji.tutorial.springboot.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;

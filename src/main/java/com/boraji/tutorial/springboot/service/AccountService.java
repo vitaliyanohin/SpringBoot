@@ -1,9 +1,6 @@
 package com.boraji.tutorial.springboot.service;
 
-
-
 import com.boraji.tutorial.springboot.model.User;
-
 import java.util.List;
 import java.util.Optional;
 
